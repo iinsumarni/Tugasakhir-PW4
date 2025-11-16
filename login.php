@@ -13,7 +13,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>Login - Tech Contact</title>
+<title>Login - Enhypen Contact</title>
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gradient-to-r from-purple-300 via-purple-400 to-purple-500 h-screen flex items-center justify-center">
@@ -24,15 +24,15 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     <form method="POST" class="space-y-5">
         <div class="relative">
             <input type="text" name="username" placeholder="Username" class="w-full p-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 peer" required>
-            <span class="absolute left-4 top-4 text-gray-400 peer-focus:text-purple-500">👤</span>
+            <span class="absolute left-4 top-4 text-gray-400 peer-focus:text-purple-500"></span>
         </div>
         <div class="relative">
             <input type="password" name="password" placeholder="Password" class="w-full p-4 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 peer" required>
-            <span class="absolute left-4 top-4 text-gray-400 peer-focus:text-purple-500">🔒</span>
+            <span class="absolute left-4 top-4 text-gray-400 peer-focus:text-purple-500"></span>
         </div>
         <button type="submit" class="w-full bg-purple-600 text-white py-3 rounded-xl hover:bg-purple-700 transition">Login</button>
     </form>
-    <p class="text-gray-400 mt-6 text-center text-sm">© 2025 Tech Contact Manager</p>
+    <p class="text-gray-400 mt-6 text-center text-sm">© 2025 Enhypen Contact Manager</p>
 </div>
 </body>
 </html>

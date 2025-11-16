@@ -11,7 +11,7 @@ $activities = file_exists('activity.log') ? array_reverse(file('activity.log')) 
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<title>Dashboard - Tech Contact</title>
+<title>Dashboard - Enhypen Contact</title>
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gradient-to-r from-purple-200 via-purple-300 to-purple-400 min-h-screen p-6 font-sans">
@@ -20,7 +20,7 @@ $activities = file_exists('activity.log') ? array_reverse(file('activity.log')) 
     <a href="logout.php" class="bg-purple-400 text-white px-4 py-2 rounded hover:bg-purple-700 transition text-2xl font-bold">Logout</a>
 </header>
 
-<!-- Feature Cards -->
+
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
     <div class="bg-white p-6 rounded-2xl shadow hover:shadow-xl transition">
         <h2 class="text-gray-400">Total Kontak</h2>
@@ -36,12 +36,12 @@ $activities = file_exists('activity.log') ? array_reverse(file('activity.log')) 
     </div>
 </div>
 
-<!-- Search -->
+
 <div class="mb-4">
     <input type="text" id="searchInput" placeholder="Cari kontak..." class="w-full p-3 rounded-xl border focus:outline-none focus:ring-2 focus:ring-purple-500">
 </div>
 
-<!-- Tabel Kontak -->
+
 <div class="bg-white p-6 rounded-2xl shadow overflow-x-auto relative">
     <a href="add.php" class="fixed bottom-8 right-8 bg-purple-600 text-white p-4 rounded-full shadow-lg hover:bg-purple-700 transition text-xl">＋</a>
     <table class="w-full table-auto border-collapse" id="contactsTable">
@@ -69,7 +69,6 @@ $activities = file_exists('activity.log') ? array_reverse(file('activity.log')) 
     </table>
 </div>
 
-<!-- Recent Activity -->
 <div class="mt-6 bg-white p-6 rounded-2xl shadow overflow-auto max-h-40">
     <h2 class="text-purple-700 font-bold mb-2">Aktivitas Terbaru</h2>
     <ul class="text-gray-600 text-sm space-y-1">
